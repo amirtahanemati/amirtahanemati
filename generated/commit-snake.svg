@@ -1,0 +1,34 @@
+<svg width="1200" height="258" viewBox="0 0 1200 258" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".032"/></pattern>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D8FF55"/><stop offset="1" stop-color="#8FFF00"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C7FF3D" stop-opacity="0"/><stop offset=".5" stop-color="#C7FF3D" stop-opacity=".16"/><stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    
+  </defs>
+  <rect width="1200" height="258" rx="24" fill="#050505"/>
+  <rect width="1200" height="258" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="256" rx="23" fill="none" stroke="#fff" stroke-opacity=".095"/>
+  
+    <text x="38" y="40" fill="#C7FF3D" font-family="monospace" font-size="12" letter-spacing="2">COMMIT SNAKE / RECENT ACTIVE COMMIT-DAYS</text>
+    <text x="1162" y="40" text-anchor="end" fill="#85857F" font-family="monospace" font-size="11">SYNC PENDING</text>
+    <text x="38" y="72" fill="#8A8A84" font-family="Arial, sans-serif" font-size="13">A custom snake that moves through your recent commit activity and "eats" each active commit-day.</text>
+    <g>
+      <circle cx="96" cy="136" r="6" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="96" cy="136" r="4" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.3s" repeatCount="indefinite"/></circle>
+      <text x="96" y="164" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">SYNC</text>
+    </g>
+    <path id="snakePath" d="M96 136" fill="none" stroke="#6A9E12" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
+    <path d="M96 136" fill="none" stroke="url(#lime)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M96 136" fill="none" stroke="#D8FF55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" values="0;-112" dur="4s" repeatCount="indefinite"/></path>
+    <g>
+      <animateMotion dur="5.6s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#snakePath"/>
+      </animateMotion>
+      <ellipse cx="0" cy="0" rx="16" ry="12" fill="#D8FF55"/>
+      <circle cx="5" cy="-3" r="2" fill="#050505"/>
+      <path d="M14 0L24 -3L24 3Z" fill="#FF7D7D"><animate attributeName="opacity" values="1;.2;1" dur="0.6s" repeatCount="indefinite"/></path>
+    </g>
+    <rect x="-260" y="0" width="220" height="258" fill="url(#shine)"><animate attributeName="x" values="-260;1260" dur="6.8s" repeatCount="indefinite"/></rect>
+  
+</svg>

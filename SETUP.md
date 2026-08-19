@@ -1,34 +1,42 @@
-# AMIRTAHA Profile V4 — setup
+# AMIRTAHA Profile README — V5 Setup
 
-## 1. Push the files
-Copy everything in this folder to the public profile repository:
+## What changed in V5
+- Main focus is now **Python + FastAPI + Web Development**.
+- **Electron.js** is still included, but as a desktop capability, not the main identity.
+- The profile is intentionally shorter and cleaner.
+- Followers were removed.
+- A custom **Commit Snake** SVG is generated from recent GitHub contribution activity.
+- The README uses your direct photo right now.
 
-`https://github.com/amirtahanemati/amirtahanemati`
+## Quick setup
+1. Create or open your public profile repository:
+   `https://github.com/amirtahanemati/amirtahanemati`
+2. Copy all files from this package into the repository root.
+3. Commit and push.
+4. Go to **Actions** and run **Refresh profile dashboard** once.
 
-Then commit and push.
+## Optional token
+For live GitHub stats, add a repository secret named `PROFILE_TOKEN`.
+Recommended scope:
+- `read:user`
+- `public_repo` is not required for public profile data
 
-## 2. Enable Actions write access
-The workflow declares `permissions: contents: write`. If your repository-level Actions settings are more restrictive, go to:
+If you do not add a token, the README will still work but live GitHub sections may show placeholders until GitHub Actions has enough access.
 
-**Repository → Settings → Actions → General → Workflow permissions**
+## Workflow permissions
+In the repository:
+- **Settings → Actions → General → Workflow permissions**
+- Set to **Read and write permissions**
 
-and allow the workflow to write repository contents.
+The workflow needs write access so it can commit the generated SVG files back into the repository.
 
-## 3. First refresh
-Open **Actions → Refresh profile dashboard → Run workflow**.
+## Files used in README
+- `assets/hero.svg`
+- `assets/expertise.svg`
+- `assets/amirtaha-photo.jpg`
+- `generated/github-signal.svg`
+- `generated/commit-snake.svg`
+- `generated/repo-*.svg`
 
-The first successful run replaces the placeholder SVGs with live GitHub data and builds clickable repository cards.
-
-## 4. Optional: include private contribution totals
-Public repository/activity data works with the workflow token. If you want the contribution calendar to include private/internal contribution totals where GitHub permits it, create a token with the minimum necessary `read:user` access and save it as the repository secret:
-
-`PROFILE_TOKEN`
-
-Do not hard-code a token in README, JavaScript, JSON or workflow YAML.
-
-## 5. Projects not uploaded to GitHub
-Edit:
-
-`data/showcase.json`
-
-These entries are rendered under **LAB — WORK NOT PUBLIC YET**. Do not place confidential details in this file because the profile repository is public.
+## Later improvement
+The vectorized portrait step is still pending. This V5 package already uses your real photo directly, and you can replace `assets/amirtaha-photo.jpg` later with a vector portrait image when ready.

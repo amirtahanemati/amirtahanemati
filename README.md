@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Amirtaha Nemati — Software Engineer / Electron.js Specialist" />
+  <img src="./assets/hero.svg" width="100%" alt="Amirtaha Nemati — Python, FastAPI, Web Development" />
 </p>
 
 <p align="center">
@@ -9,30 +9,28 @@
   <a href="mailto:amirtahanemati0@gmail.com"><img src="./assets/contact/email.svg" height="58" alt="Email" /></a>
 </p>
 
-<br/>
-
 <table>
 <tr>
 <td width="34%" valign="top">
-  <img src="./assets/amirtaha-profile.webp" width="100%" alt="Amirtaha Nemati" />
+  <img src="./assets/amirtaha-photo.jpg" width="100%" alt="Amirtaha Nemati" />
 </td>
 <td width="66%" valign="top">
 
 ### `01 / IDENTITY`
 
-I design and build software that moves from **idea → architecture → interface → deployment**.
+I mainly build **backend systems and web products** — especially with **Python, FastAPI and modern web development**.
 
-My strongest desktop specialty is **Electron.js** — building modern cross-platform desktop products with JavaScript, web technologies and native desktop capabilities.
+I also work across **desktop** and **mobile** when the product needs it:
 
 ```text
-PRIMARY     Electron.js / JavaScript
-BACKEND     Python / FastAPI / APIs
-FRONTEND    React / JavaScript
-MOBILE      React Native / Flutter
-SYSTEMS     C++ / Docker / Linux
+MAIN FOCUS   Python / FastAPI / APIs / Web Development
+FRONTEND     JavaScript / React
+DESKTOP      Electron.js
+MOBILE       React Native / Flutter
+SYSTEMS      C++ / Docker / Linux
 ```
 
-I care about software that is not only technically correct, but also **fast, usable, maintainable and visually intentional**.
+I like software that is **clean, practical, fast and product-oriented**.
 
 </td>
 </tr>
@@ -44,27 +42,19 @@ I care about software that is not only technically correct, but also **fast, usa
 
 ## `02 / LIVE GITHUB SIGNAL`
 
-> **This section is generated from GitHub itself.** The numbers, contribution history, languages and repository cards refresh automatically through GitHub Actions.
+> Live data from GitHub. Kept intentionally short and useful.
 
 <p align="center">
   <img src="./generated/github-signal.svg" width="100%" alt="Live GitHub statistics" />
 </p>
 
-### Contribution timeline
+## `03 / COMMIT SNAKE`
 
 <p align="center">
-  <img src="./generated/contribution-grid.svg" width="100%" alt="Animated GitHub contribution history" />
+  <img src="./generated/commit-snake.svg" width="100%" alt="Animated GitHub commit snake" />
 </p>
 
-<p align="center"><sub>Rolling 12-month contribution calendar • refreshed automatically</sub></p>
-
-### Coding footprint
-
-<p align="center">
-  <img src="./generated/language-radar.svg" width="100%" alt="Programming language footprint" />
-</p>
-
-## `03 / ACTIVE REPOSITORIES`
+## `04 / ACTIVE REPOSITORIES`
 
 <!-- AUTO:REPOS:START -->
 <p align="center"><i>Repository cards will sync on the first GitHub Actions run.</i></p>
@@ -74,27 +64,7 @@ I care about software that is not only technically correct, but also **fast, usa
   <a href="https://github.com/amirtahanemati?tab=repositories"><b>EXPLORE ALL REPOSITORIES ↗</b></a>
 </p>
 
-## `04 / COMMIT FLOW`
-
-<p align="center">
-  <img src="./generated/commit-flow.svg" width="100%" alt="Animated recent GitHub commit flow" />
-</p>
-
-## `05 / RECENT ENGINEERING ACTIVITY`
-
-<p align="center">
-  <img src="./generated/activity-stream.svg" width="100%" alt="Recent GitHub repository activity" />
-</p>
-
-## `06 / LAB — WORK NOT PUBLIC YET`
-
-<p align="center">
-  <img src="./generated/lab-showcase.svg" width="100%" alt="Projects in development" />
-</p>
-
-> Projects that are not on GitHub cannot be discovered by the GitHub API. Add only the public-safe details you want to reveal to [`data/showcase.json`](./data/showcase.json); the dashboard will render them automatically.
-
-## `07 / CONNECT`
+## `05 / CONNECT`
 
 <p align="center">
   <a href="https://www.linkedin.com/in/amirtahanemati/"><img src="./assets/contact/linkedin-wide.svg" width="48%" alt="Connect on LinkedIn" /></a>
@@ -106,5 +76,5 @@ I care about software that is not only technically correct, but also **fast, usa
 </p>
 
 <p align="center">
-  <sub>AMIRTAHA® / Software engineering with product thinking.</sub>
+  <sub>AMIRTAHA® / Backend, APIs, web, desktop and mobile.</sub>
 </p>

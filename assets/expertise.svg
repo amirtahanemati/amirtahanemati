@@ -1,11 +1,38 @@
-<svg width="1200" height="310" viewBox="0 0 1200 310" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="g"><stop stop-color="#C7FF3D"/><stop offset="1" stop-color="#7DFF00"/></linearGradient><pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern></defs>
-<rect width="1200" height="310" rx="26" fill="#050505"/><rect width="1200" height="310" rx="26" fill="url(#p)"/><rect x="1" y="1" width="1198" height="308" rx="25" fill="none" stroke="#fff" stroke-opacity=".1"/>
-<text x="44" y="48" fill="#C7FF3D" font-family="monospace" font-size="12" letter-spacing="2">CORE ENGINEERING MATRIX</text>
-<g font-family="Arial, sans-serif">
-<g transform="translate(44 76)"><rect width="258" height="180" rx="18" fill="#0A0A0A" stroke="#C7FF3D" stroke-opacity=".42"/><text x="20" y="34" fill="#C7FF3D" font-size="11" font-family="monospace">PRIMARY SPECIALTY</text><text x="20" y="75" fill="#F4F4EF" font-size="27" font-weight="800">Electron.js</text><text x="20" y="105" fill="#A4A49D" font-size="14">Cross-platform desktop</text><text x="20" y="130" fill="#A4A49D" font-size="14">JavaScript • Node.js</text><text x="20" y="155" fill="#A4A49D" font-size="14">Packaging • Native APIs</text><circle cx="226" cy="31" r="7" fill="#C7FF3D"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(324 76)"><rect width="258" height="180" rx="18" fill="#0A0A0A" stroke="#fff" stroke-opacity=".1"/><text x="20" y="34" fill="#85857F" font-size="11" font-family="monospace">BACKEND</text><text x="20" y="75" fill="#F4F4EF" font-size="24" font-weight="800">Python / FastAPI</text><text x="20" y="105" fill="#A4A49D" font-size="14">REST APIs</text><text x="20" y="130" fill="#A4A49D" font-size="14">PostgreSQL • Redis</text><text x="20" y="155" fill="#A4A49D" font-size="14">Docker • Linux</text></g>
-<g transform="translate(604 76)"><rect width="258" height="180" rx="18" fill="#0A0A0A" stroke="#fff" stroke-opacity=".1"/><text x="20" y="34" fill="#85857F" font-size="11" font-family="monospace">FRONTEND + MOBILE</text><text x="20" y="75" fill="#F4F4EF" font-size="24" font-weight="800">React</text><text x="20" y="105" fill="#A4A49D" font-size="14">JavaScript</text><text x="20" y="130" fill="#A4A49D" font-size="14">React Native</text><text x="20" y="155" fill="#A4A49D" font-size="14">Flutter • Dart</text></g>
-<g transform="translate(884 76)"><rect width="272" height="180" rx="18" fill="#0A0A0A" stroke="#fff" stroke-opacity=".1"/><text x="20" y="34" fill="#85857F" font-size="11" font-family="monospace">SYSTEMS / TOOLING</text><text x="20" y="75" fill="#F4F4EF" font-size="24" font-weight="800">C++</text><text x="20" y="105" fill="#A4A49D" font-size="14">Docker • Nginx</text><text x="20" y="130" fill="#A4A49D" font-size="14">Git • GitHub Actions</text><text x="20" y="155" fill="#A4A49D" font-size="14">Linux environments</text></g>
-</g>
+<svg width="1280" height="182" viewBox="0 0 1280 182" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D8FF55"/>
+      <stop offset="1" stop-color="#8FFF00"/>
+    </linearGradient>
+    <pattern id="grid2" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="white" stroke-opacity="0.04"/></pattern>
+  </defs>
+  <rect width="1280" height="182" rx="24" fill="#050505"/>
+  <rect width="1280" height="182" rx="24" fill="url(#grid2)"/>
+  <rect x="1" y="1" width="1278" height="180" rx="23" stroke="white" stroke-opacity="0.08"/>
+  <text x="42" y="38" fill="#C7FF3D" font-family="monospace" font-size="12" letter-spacing="2">CORE EXPERTISE</text>
+  <g transform="translate(40 62)">
+    <rect width="236" height="82" rx="18" fill="#0B0B0B" stroke="#C7FF3D" stroke-opacity="0.3"/>
+    <text x="18" y="26" fill="#7F7F78" font-family="monospace" font-size="10" letter-spacing="1.4">MAIN FOCUS</text>
+    <text x="18" y="56" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Python / FastAPI</text>
+  </g>
+  <g transform="translate(292 62)">
+    <rect width="220" height="82" rx="18" fill="#0B0B0B" stroke="white" stroke-opacity="0.09"/>
+    <text x="18" y="26" fill="#7F7F78" font-family="monospace" font-size="10" letter-spacing="1.4">WEB</text>
+    <text x="18" y="56" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">JavaScript / React</text>
+  </g>
+  <g transform="translate(528 62)">
+    <rect width="220" height="82" rx="18" fill="#0B0B0B" stroke="white" stroke-opacity="0.09"/>
+    <text x="18" y="26" fill="#7F7F78" font-family="monospace" font-size="10" letter-spacing="1.4">DESKTOP</text>
+    <text x="18" y="56" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Electron.js</text>
+  </g>
+  <g transform="translate(764 62)">
+    <rect width="220" height="82" rx="18" fill="#0B0B0B" stroke="white" stroke-opacity="0.09"/>
+    <text x="18" y="26" fill="#7F7F78" font-family="monospace" font-size="10" letter-spacing="1.4">MOBILE</text>
+    <text x="18" y="56" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">React Native / Flutter</text>
+  </g>
+  <g transform="translate(1000 62)">
+    <rect width="240" height="82" rx="18" fill="#0B0B0B" stroke="white" stroke-opacity="0.09"/>
+    <text x="18" y="26" fill="#7F7F78" font-family="monospace" font-size="10" letter-spacing="1.4">SYSTEMS</text>
+    <text x="18" y="56" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">C++ / Docker / Linux</text>
+  </g>
 </svg>
