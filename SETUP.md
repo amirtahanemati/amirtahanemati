@@ -1,42 +1,55 @@
-# AMIRTAHA Profile README — V5 Setup
+# AMIRTAHA Profile V6 — Install
 
-## What changed in V5
-- Main focus is now **Python + FastAPI + Web Development**.
-- **Electron.js** is still included, but as a desktop capability, not the main identity.
-- The profile is intentionally shorter and cleaner.
-- Followers were removed.
-- A custom **Commit Snake** SVG is generated from recent GitHub contribution activity.
-- The README uses your direct photo right now.
+## 1) Replace the contents of your profile repository
+Repository:
 
-## Quick setup
-1. Create or open your public profile repository:
-   `https://github.com/amirtahanemati/amirtahanemati`
-2. Copy all files from this package into the repository root.
-3. Commit and push.
-4. Go to **Actions** and run **Refresh profile dashboard** once.
+`https://github.com/amirtahanemati/amirtahanemati`
 
-## Optional token
-For live GitHub stats, add a repository secret named `PROFILE_TOKEN`.
-Recommended scope:
-- `read:user`
-- `public_repo` is not required for public profile data
+Copy **everything inside this V6 folder** into the root of that repository.
 
-If you do not add a token, the README will still work but live GitHub sections may show placeholders until GitHub Actions has enough access.
+## 2) Push
 
-## Workflow permissions
-In the repository:
-- **Settings → Actions → General → Workflow permissions**
-- Set to **Read and write permissions**
+```powershell
+git add .
+git commit -m "feat: redesign profile to premium v6"
+git push origin main
+```
 
-The workflow needs write access so it can commit the generated SVG files back into the repository.
+## 3) Run the live sync once
+Open the repository on GitHub:
 
-## Files used in README
-- `assets/hero.svg`
-- `assets/expertise.svg`
-- `assets/amirtaha-photo.jpg`
-- `generated/github-signal.svg`
-- `generated/commit-snake.svg`
-- `generated/repo-*.svg`
+**Actions → Refresh premium profile → Run workflow**
 
-## Later improvement
-The vectorized portrait step is still pending. This V5 package already uses your real photo directly, and you can replace `assets/amirtaha-photo.jpg` later with a vector portrait image when ready.
+The workflow will:
+- generate the real animated contribution snake;
+- read your public repositories;
+- refresh live GitHub numbers;
+- choose four selected repositories automatically;
+- commit the generated assets back to the profile repository.
+
+## Repository workflow permission
+If the final commit step is denied:
+
+**Settings → Actions → General → Workflow permissions → Read and write permissions**
+
+Then run the workflow again.
+
+## Optional: private contribution visibility
+Public repositories and the public contribution snake require no custom secret beyond GitHub Actions' own token.
+
+If you later want the dashboard to access contribution information that requires user-level access, create a fine-grained/personal token with only the minimum read access needed and save it as:
+
+`PROFILE_TOKEN`
+
+under:
+
+**Settings → Secrets and variables → Actions → New repository secret**
+
+Never put the token inside `README.md`, JavaScript files, or a commit.
+
+## Portrait
+V6 uses a clean square crop of your original photo at:
+
+`assets/amirtaha-photo-square.jpg`
+
+No facial retouching or identity changes were applied. The separate vector portrait can replace this file later without redesigning the README.

@@ -1,0 +1,38 @@
+<svg width="1280" height="390" viewBox="0 0 1280 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lime" x1="430" y1="60" x2="850" y2="330"><stop stop-color="#DFFF66"/><stop offset="1" stop-color="#71E100"/></linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 196) rotate(90) scale(154)"><stop stop-color="#A8FF15" stop-opacity=".15"/><stop offset="1" stop-color="#A8FF15" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#fff" stroke-opacity=".032"/></pattern>
+  </defs>
+  <rect width="1280" height="390" rx="26" fill="#050505"/>
+  <rect width="1280" height="390" rx="26" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="388" rx="25" stroke="#fff" stroke-opacity=".09"/>
+  <text x="38" y="42" fill="#BFFF35" font-family="monospace" font-size="12" letter-spacing="2.4">02 / ENGINEERING MAP</text>
+  <text x="1242" y="42" text-anchor="end" fill="#777772" font-family="monospace" font-size="10">BACKEND → WEB → DESKTOP → MOBILE</text>
+
+  <circle cx="640" cy="205" r="158" fill="url(#halo)"/>
+  <circle cx="640" cy="205" r="86" fill="#080808" stroke="#BFFF35" stroke-opacity=".3" stroke-width="2"/>
+  <circle cx="640" cy="205" r="106" stroke="#BFFF35" stroke-opacity=".13" stroke-dasharray="8 12"><animateTransform attributeName="transform" type="rotate" from="0 640 205" to="360 640 205" dur="18s" repeatCount="indefinite"/></circle>
+  <circle cx="640" cy="205" r="126" stroke="#fff" stroke-opacity=".07" stroke-dasharray="3 13"><animateTransform attributeName="transform" type="rotate" from="360 640 205" to="0 640 205" dur="14s" repeatCount="indefinite"/></circle>
+  <text x="640" y="195" text-anchor="middle" fill="#BFFF35" font-family="monospace" font-size="12" letter-spacing="1.4">MAIN CORE</text>
+  <text x="640" y="226" text-anchor="middle" fill="#F5F5F0" font-family="Arial, sans-serif" font-size="22" font-weight="850">PYTHON + FASTAPI</text>
+
+  <path d="M553 205H330" stroke="#BFFF35" stroke-opacity=".23" stroke-width="2" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" values="0;-42" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M727 205H950" stroke="#BFFF35" stroke-opacity=".23" stroke-width="2" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" values="0;-42" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M602 132L450 78" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+  <path d="M678 132L830 78" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+  <path d="M602 278L450 332" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+  <path d="M678 278L830 332" stroke="#fff" stroke-opacity=".10" stroke-width="2"/>
+
+  <g transform="translate(112 155)"><rect width="218" height="102" rx="18" fill="#0A0A0A" stroke="#fff" stroke-opacity=".09"/><text x="18" y="28" fill="#74746E" font-family="monospace" font-size="10">WEB</text><text x="18" y="58" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="19" font-weight="800">JavaScript / React</text><text x="18" y="82" fill="#8B8B85" font-family="Arial, sans-serif" font-size="12">Interfaces &amp; web products</text></g>
+  <g transform="translate(950 155)"><rect width="218" height="102" rx="18" fill="#0A0A0A" stroke="#fff" stroke-opacity=".09"/><text x="18" y="28" fill="#74746E" font-family="monospace" font-size="10">DESKTOP</text><text x="18" y="58" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="19" font-weight="800">Electron.js</text><text x="18" y="82" fill="#8B8B85" font-family="Arial, sans-serif" font-size="12">Cross-platform desktop apps</text></g>
+  <g transform="translate(336 64)"><rect width="208" height="78" rx="16" fill="#0A0A0A" stroke="#fff" stroke-opacity=".08"/><text x="16" y="28" fill="#74746E" font-family="monospace" font-size="10">API / DATA</text><text x="16" y="55" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="17" font-weight="800">PostgreSQL / REST</text></g>
+  <g transform="translate(736 64)"><rect width="208" height="78" rx="16" fill="#0A0A0A" stroke="#fff" stroke-opacity=".08"/><text x="16" y="28" fill="#74746E" font-family="monospace" font-size="10">DEVOPS</text><text x="16" y="55" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="17" font-weight="800">Docker / Linux</text></g>
+  <g transform="translate(336 282)"><rect width="208" height="78" rx="16" fill="#0A0A0A" stroke="#fff" stroke-opacity=".08"/><text x="16" y="28" fill="#74746E" font-family="monospace" font-size="10">MOBILE</text><text x="16" y="55" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="17" font-weight="800">React Native</text></g>
+  <g transform="translate(736 282)"><rect width="208" height="78" rx="16" fill="#0A0A0A" stroke="#fff" stroke-opacity=".08"/><text x="16" y="28" fill="#74746E" font-family="monospace" font-size="10">MOBILE / SYSTEMS</text><text x="16" y="55" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="17" font-weight="800">Flutter / C++</text></g>
+
+  <circle cx="536" cy="109" r="4" fill="#BFFF35"><animate attributeName="opacity" values=".15;1;.15" dur="1.7s" repeatCount="indefinite"/></circle>
+  <circle cx="744" cy="109" r="4" fill="#BFFF35"><animate attributeName="opacity" values=".15;1;.15" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="536" cy="321" r="4" fill="#BFFF35"><animate attributeName="opacity" values=".15;1;.15" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="744" cy="321" r="4" fill="#BFFF35"><animate attributeName="opacity" values=".15;1;.15" dur="1.9s" repeatCount="indefinite"/></circle>
+</svg>

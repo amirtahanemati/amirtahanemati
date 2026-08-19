@@ -1,4 +1,4 @@
-name: Refresh profile dashboard
+name: Refresh premium profile
 
 on:
   workflow_dispatch:
@@ -8,19 +8,21 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
-      - 'data/**'
+      - 'assets/**'
       - '.github/workflows/profile-sync.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-dashboard
+  group: premium-profile-dashboard
   cancel-in-progress: true
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
@@ -30,14 +32,23 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate live profile assets
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            generated/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#BFFF35&color_dots=#0A0A0A,#1B270C,#334F0C,#689F13,#BFFF35
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate live dashboard and repository cards
+        env:
+          PROFILE_USERNAME: amirtahanemati
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN_FALLBACK: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: amirtahanemati
         run: node scripts/generate-profile.mjs
 
-      - name: Commit refreshed dashboard
+      - name: Commit refreshed profile
         run: |
           git config user.name "amirtaha-profile-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,5 +57,5 @@ jobs:
             echo "Profile already up to date."
             exit 0
           fi
-          git commit -m "chore: refresh live profile dashboard"
+          git commit -m "chore: refresh premium profile [skip ci]"
           git push

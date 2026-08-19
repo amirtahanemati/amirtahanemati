@@ -1,41 +1,95 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="80" y1="60" x2="1180" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D8FF55"/>
-      <stop offset="1" stop-color="#8FFF00"/>
+    <linearGradient id="lime" x1="64" y1="0" x2="1216" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFFF66"/>
+      <stop offset=".48" stop-color="#A8FF15"/>
+      <stop offset="1" stop-color="#67D900"/>
     </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#151515" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#090909" stop-opacity=".72"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1056 252) rotate(90) scale(210)">
+      <stop stop-color="#A8FF15" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#A8FF15" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#C7FF3D" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#C7FF3D" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/>
+      <stop stop-color="#A8FF15" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A8FF15" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#A8FF15" stop-opacity="0"/>
     </linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="white" stroke-opacity="0.05"/></pattern>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFF" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="tiny"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <rect width="1280" height="360" rx="28" fill="#050505"/>
-  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1278" height="358" rx="27" stroke="white" stroke-opacity="0.08"/>
-  <circle cx="1080" cy="98" r="120" fill="#A9FF00" fill-opacity="0.16" filter="url(#blur)"/>
-  <circle cx="1090" cy="104" r="62" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity="0.32"/>
-  <path d="M1061 104H1119" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
-  <path d="M1090 75V133" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
-  <text x="64" y="72" fill="#C7FF3D" font-family="monospace" font-size="14" letter-spacing="3">AMIRTAHA® / SOFTWARE ENGINEER</text>
-  <text x="64" y="148" fill="#F5F5F0" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="56">PYTHON + FASTAPI + WEB DEVELOPMENT</text>
-  <text x="64" y="206" fill="#B8B8B2" font-family="Arial, Helvetica, sans-serif" font-size="24">Building APIs, web products and software systems with product thinking.</text>
-  <text x="64" y="252" fill="#F5F5F0" font-family="Arial, Helvetica, sans-serif" font-size="22">Also working across Electron.js desktop apps and mobile with React Native / Flutter.</text>
-  <g transform="translate(64 288)">
-    <rect width="204" height="38" rx="19" fill="#0D0D0D" stroke="#C7FF3D" stroke-opacity="0.35"/>
-    <text x="18" y="24" fill="#F5F5F0" font-family="monospace" font-size="14">BACKEND / API ENGINEERING</text>
+
+  <rect width="1280" height="520" rx="30" fill="#050505"/>
+  <rect width="1280" height="520" rx="30" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="518" rx="29" stroke="#FFF" stroke-opacity=".09"/>
+
+  <circle cx="1082" cy="244" r="224" fill="url(#glow)"/>
+  <circle cx="1082" cy="244" r="116" stroke="#A8FF15" stroke-opacity=".14" stroke-width="1.5" stroke-dasharray="8 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 1082 244" to="360 1082 244" dur="22s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1082" cy="244" r="78" stroke="#FFF" stroke-opacity=".09" stroke-dasharray="3 10">
+    <animateTransform attributeName="transform" type="rotate" from="360 1082 244" to="0 1082 244" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1082" cy="244" r="9" fill="#BFFF35" filter="url(#tiny)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1170" cy="158" r="4" fill="#BFFF35">
+    <animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="990" cy="330" r="4" fill="#BFFF35">
+    <animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="64" y="64" fill="#BFFF35" font-family="monospace" font-size="13" letter-spacing="3.2">AMIRTAHA® / SOFTWARE ENGINEER / 2026</text>
+  <circle cx="1194" cy="58" r="5" fill="#BFFF35"><animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/></circle>
+  <text x="1178" y="63" text-anchor="end" fill="#8A8A84" font-family="monospace" font-size="11" letter-spacing="1.6">LIVE PROFILE</text>
+
+  <text x="64" y="154" fill="#F7F7F2" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2.8">PYTHON.</text>
+  <text x="64" y="221" fill="url(#lime)" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2.8">FASTAPI.</text>
+  <text x="64" y="288" fill="#F7F7F2" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" letter-spacing="-2.8">WEB SYSTEMS.</text>
+
+  <text x="66" y="340" fill="#A8A8A2" font-family="Arial, Helvetica, sans-serif" font-size="19">Backend-first developer building fast APIs, modern web products,</text>
+  <text x="66" y="368" fill="#A8A8A2" font-family="Arial, Helvetica, sans-serif" font-size="19">desktop applications and mobile experiences.</text>
+
+  <g transform="translate(64 412)">
+    <rect width="156" height="42" rx="21" fill="url(#glass)" stroke="#BFFF35" stroke-opacity=".3"/>
+    <text x="78" y="26" text-anchor="middle" fill="#F3F3EE" font-family="monospace" font-size="12">BACKEND / API</text>
   </g>
-  <g transform="translate(286 288)">
-    <rect width="162" height="38" rx="19" fill="#0D0D0D" stroke="white" stroke-opacity="0.14"/>
-    <text x="18" y="24" fill="#F5F5F0" font-family="monospace" font-size="14">WEB PRODUCTS</text>
+  <g transform="translate(232 412)">
+    <rect width="136" height="42" rx="21" fill="url(#glass)" stroke="#FFF" stroke-opacity=".1"/>
+    <text x="68" y="26" text-anchor="middle" fill="#F3F3EE" font-family="monospace" font-size="12">WEB DEV</text>
   </g>
-  <g transform="translate(466 288)">
-    <rect width="146" height="38" rx="19" fill="#0D0D0D" stroke="white" stroke-opacity="0.14"/>
-    <text x="18" y="24" fill="#F5F5F0" font-family="monospace" font-size="14">ELECTRON.JS</text>
+  <g transform="translate(380 412)">
+    <rect width="154" height="42" rx="21" fill="url(#glass)" stroke="#FFF" stroke-opacity=".1"/>
+    <text x="77" y="26" text-anchor="middle" fill="#F3F3EE" font-family="monospace" font-size="12">ELECTRON.JS</text>
   </g>
-  <rect x="-260" y="0" width="240" height="360" fill="url(#scan)">
-    <animate attributeName="x" values="-260;1320" dur="6.4s" repeatCount="indefinite"/>
-  </rect>
+  <g transform="translate(546 412)">
+    <rect width="152" height="42" rx="21" fill="url(#glass)" stroke="#FFF" stroke-opacity=".1"/>
+    <text x="76" y="26" text-anchor="middle" fill="#F3F3EE" font-family="monospace" font-size="12">MOBILE</text>
+  </g>
+
+  <g transform="translate(790 110)">
+    <rect width="388" height="274" rx="24" fill="#0A0A0A" fill-opacity=".86" stroke="#FFF" stroke-opacity=".08"/>
+    <circle cx="22" cy="22" r="5" fill="#FF6E6E"/><circle cx="40" cy="22" r="5" fill="#FFD65A"/><circle cx="58" cy="22" r="5" fill="#79E86D"/>
+    <text x="22" y="61" fill="#71716B" font-family="monospace" font-size="11">stack.py</text>
+    <text x="22" y="95" fill="#BFFF35" font-family="monospace" font-size="14">class</text>
+    <text x="72" y="95" fill="#F1F1EC" font-family="monospace" font-size="14">Amirtaha:</text>
+    <text x="38" y="128" fill="#81817B" font-family="monospace" font-size="13">main</text><text x="96" y="128" fill="#F1F1EC" font-family="monospace" font-size="13">= ["Python", "FastAPI"]</text>
+    <text x="38" y="158" fill="#81817B" font-family="monospace" font-size="13">web</text><text x="96" y="158" fill="#F1F1EC" font-family="monospace" font-size="13">= ["JavaScript", "React"]</text>
+    <text x="38" y="188" fill="#81817B" font-family="monospace" font-size="13">desktop</text><text x="110" y="188" fill="#F1F1EC" font-family="monospace" font-size="13">= ["Electron.js"]</text>
+    <text x="38" y="218" fill="#81817B" font-family="monospace" font-size="13">mobile</text><text x="100" y="218" fill="#F1F1EC" font-family="monospace" font-size="13">= ["RN", "Flutter"]</text>
+    <text x="38" y="248" fill="#81817B" font-family="monospace" font-size="13">systems</text><text x="110" y="248" fill="#F1F1EC" font-family="monospace" font-size="13">= ["C++", "Docker"]</text>
+    <rect x="20" y="257" width="342" height="2" rx="1" fill="#161616"/>
+    <rect x="20" y="257" width="124" height="2" rx="1" fill="url(#lime)">
+      <animate attributeName="width" values="52;342;52" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="-300" y="0" width="250" height="520" fill="url(#scan)"><animate attributeName="x" values="-300;1320" dur="7.2s" repeatCount="indefinite"/></rect>
 </svg>
