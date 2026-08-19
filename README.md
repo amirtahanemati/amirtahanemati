@@ -61,4 +61,3 @@
 <p align="center">
   <sub>AMIRTAHA® — Python / FastAPI / Web / Electron.js / Mobile</sub>
 </p>
-YOLO achievement test
