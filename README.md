@@ -12,7 +12,7 @@
 <table>
 <tr>
 <td width="31%" valign="top">
-  <img src="./assets/amirtaha-photo-square.jpg" width="100%" alt="Amirtaha Nemati" />
+  <img src="./assets/profile.png" width="100%" alt="Amirtaha Nemati" />
 </td>
 <td width="69%" valign="top">
   <img src="./assets/identity.svg" width="100%" alt="About Amirtaha" />
@@ -35,9 +35,11 @@
 ### `05 / SELECTED REPOSITORIES`
 
 <!-- AUTO:REPOS:START -->
+
 <<<<<<< HEAD
-<p align="center"><i>Run the profile workflow once to sync selected repositories.</i></p>
-=======
+
+# <p align="center"><i>Run the profile workflow once to sync selected repositories.</i></p>
+
 <p align="center">
   <a href="https://github.com/amirtahanemati/menu-cafe-react"><img src="./generated/repo-1.svg" width="48.5%" alt="menu-cafe-react" /></a>
   <a href="https://github.com/amirtahanemati/React-Tailwind-CSS"><img src="./generated/repo-2.svg" width="48.5%" alt="React-Tailwind-CSS" /></a>
