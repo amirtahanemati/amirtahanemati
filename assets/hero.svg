@@ -1,0 +1,28 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C7FF3D" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#fff" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="#050505"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="1070" cy="70" r="280" fill="url(#glow)">
+      <animate attributeName="cx" values="1070;920;1070" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;220;70" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="34" y="34" width="1132" height="292" rx="16" stroke="#fff" stroke-opacity=".11"/>
+    <text x="68" y="82" fill="#C7FF3D" font-family="monospace" font-size="14" letter-spacing="3">SOFTWARE DEVELOPER / PRODUCT BUILDER</text>
+    <text x="68" y="198" fill="#F3F3EF" font-family="Arial, sans-serif" font-size="94" font-weight="900" letter-spacing="-6">AMIRTAHA</text>
+    <text x="68" y="278" fill="none" stroke="#F3F3EF" stroke-opacity=".72" font-family="Arial, sans-serif" font-size="78" font-weight="900" letter-spacing="-4">NEMATI.</text>
+    <circle cx="1090" cy="267" r="8" fill="#C7FF3D">
+      <animate attributeName="opacity" values="1;.18;1" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1111" y="272" fill="#8B8B84" font-family="monospace" font-size="11">BUILD MODE</text>
+  </g>
+</svg>
