@@ -11,16 +11,32 @@
   <rect x="1" y="1" width="1198" height="256" rx="23" fill="none" stroke="#fff" stroke-opacity=".095"/>
   
     <text x="38" y="40" fill="#C7FF3D" font-family="monospace" font-size="12" letter-spacing="2">COMMIT SNAKE / RECENT ACTIVE COMMIT-DAYS</text>
-    <text x="1162" y="40" text-anchor="end" fill="#85857F" font-family="monospace" font-size="11">SYNC PENDING</text>
+    <text x="1162" y="40" text-anchor="end" fill="#85857F" font-family="monospace" font-size="11">15 COMMITS / 12M</text>
     <text x="38" y="72" fill="#8A8A84" font-family="Arial, sans-serif" font-size="13">A custom snake that moves through your recent commit activity and "eats" each active commit-day.</text>
     <g>
-      <circle cx="96" cy="136" r="6" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
-      <circle cx="96" cy="136" r="4" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.3s" repeatCount="indefinite"/></circle>
-      <text x="96" y="164" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">SYNC</text>
+      <circle cx="96" cy="136" r="5.414213562373095" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="96" cy="136" r="3.414213562373095" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.3s" repeatCount="indefinite"/></circle>
+      <text x="96" y="164" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">NOV 14</text>
+    </g><g>
+      <circle cx="348.5" cy="159.91150025281394" r="5.732050807568877" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="348.5" cy="159.91150025281394" r="3.7320508075688767" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.42s" repeatCount="indefinite"/></circle>
+      <text x="348.5" y="187.91150025281394" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">NOV 25</text>
+    </g><g>
+      <circle cx="601" cy="169.99801848781885" r="6.449489742783178" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="601" cy="169.99801848781885" r="4.449489742783178" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.54s" repeatCount="indefinite"/></circle>
+      <text x="601" y="197.99801848781885" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">FEB 20</text>
+    </g><g>
+      <circle cx="853.5" cy="160.4278029643503" r="6.449489742783178" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="853.5" cy="160.4278029643503" r="4.449489742783178" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.6600000000000001s" repeatCount="indefinite"/></circle>
+      <text x="853.5" y="188.4278029643503" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">FEB 21</text>
+    </g><g>
+      <circle cx="1106" cy="136.73409317468727" r="5" fill="#0E0E0E" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <circle cx="1106" cy="136.73409317468727" r="3" fill="#C7FF3D" opacity=".82"><animate attributeName="opacity" values=".35;1;.35" dur="1.78s" repeatCount="indefinite"/></circle>
+      <text x="1106" y="164.73409317468727" text-anchor="middle" fill="#777772" font-family="monospace" font-size="9">AUG 19</text>
     </g>
-    <path id="snakePath" d="M96 136" fill="none" stroke="#6A9E12" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
-    <path d="M96 136" fill="none" stroke="url(#lime)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-    <path d="M96 136" fill="none" stroke="#D8FF55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" values="0;-112" dur="4s" repeatCount="indefinite"/></path>
+    <path id="snakePath" d="M96 136 Q 222.25 136, 348.5 159.91150025281394 Q 474.75 159.91150025281394, 601 169.99801848781885 Q 727.25 169.99801848781885, 853.5 160.4278029643503 Q 979.75 160.4278029643503, 1106 136.73409317468727" fill="none" stroke="#6A9E12" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
+    <path d="M96 136 Q 222.25 136, 348.5 159.91150025281394 Q 474.75 159.91150025281394, 601 169.99801848781885 Q 727.25 169.99801848781885, 853.5 160.4278029643503 Q 979.75 160.4278029643503, 1106 136.73409317468727" fill="none" stroke="url(#lime)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M96 136 Q 222.25 136, 348.5 159.91150025281394 Q 474.75 159.91150025281394, 601 169.99801848781885 Q 727.25 169.99801848781885, 853.5 160.4278029643503 Q 979.75 160.4278029643503, 1106 136.73409317468727" fill="none" stroke="#D8FF55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 18"><animate attributeName="stroke-dashoffset" values="0;-112" dur="4s" repeatCount="indefinite"/></path>
     <g>
       <animateMotion dur="5.6s" repeatCount="indefinite" rotate="auto">
         <mpath href="#snakePath"/>

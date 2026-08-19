@@ -62,7 +62,6 @@ I like software that is **clean, practical, fast and product-oriented**.
   <a href="https://github.com/amirtahanemati/React-Tailwind-CSS"><img src="./generated/repo-2.svg" width="48.5%" alt="React-Tailwind-CSS" /></a>
   <a href="https://github.com/amirtahanemati/Color-palette-extractor"><img src="./generated/repo-3.svg" width="48.5%" alt="Color-palette-extractor" /></a>
   <a href="https://github.com/amirtahanemati/Dictionary-app"><img src="./generated/repo-4.svg" width="48.5%" alt="Dictionary-app" /></a>
-  <a href="https://github.com/amirtahanemati/APL-Final-Project"><img src="./generated/repo-5.svg" width="48.5%" alt="APL-Final-Project" /></a>
 </p>
 <!-- AUTO:REPOS:END -->
 
