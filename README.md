@@ -35,7 +35,16 @@
 ### `05 / SELECTED REPOSITORIES`
 
 <!-- AUTO:REPOS:START -->
+<<<<<<< HEAD
 <p align="center"><i>Run the profile workflow once to sync selected repositories.</i></p>
+=======
+<p align="center">
+  <a href="https://github.com/amirtahanemati/menu-cafe-react"><img src="./generated/repo-1.svg" width="48.5%" alt="menu-cafe-react" /></a>
+  <a href="https://github.com/amirtahanemati/React-Tailwind-CSS"><img src="./generated/repo-2.svg" width="48.5%" alt="React-Tailwind-CSS" /></a>
+  <a href="https://github.com/amirtahanemati/Color-palette-extractor"><img src="./generated/repo-3.svg" width="48.5%" alt="Color-palette-extractor" /></a>
+  <a href="https://github.com/amirtahanemati/Dictionary-app"><img src="./generated/repo-4.svg" width="48.5%" alt="Dictionary-app" /></a>
+</p>
+>>>>>>> b3e1267d849732818591e9179a0ccb0a476c05cc
 <!-- AUTO:REPOS:END -->
 
 <p align="center">
