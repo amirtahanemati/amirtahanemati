@@ -35,14 +35,6 @@
 ### `05 / SELECTED REPOSITORIES`
 
 <!-- AUTO:REPOS:START -->
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-
-# <p align="center"><i>Run the profile workflow once to sync selected repositories.</i></p>
-
-=======
->>>>>>> 533101700255a5ce6e1b06af1db45e69f081e3ba
 <p align="center">
   <a href="https://github.com/amirtahanemati/menu-cafe-react"><img src="./generated/repo-1.svg" width="48.5%" alt="menu-cafe-react" /></a>
   <a href="https://github.com/amirtahanemati/React-Tailwind-CSS"><img src="./generated/repo-2.svg" width="48.5%" alt="React-Tailwind-CSS" /></a>
