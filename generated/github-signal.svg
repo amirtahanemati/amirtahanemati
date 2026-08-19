@@ -1,0 +1,47 @@
+<svg width="1200" height="226" viewBox="0 0 1200 226" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".032"/></pattern>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D8FF55"/><stop offset="1" stop-color="#8FFF00"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C7FF3D" stop-opacity="0"/><stop offset=".5" stop-color="#C7FF3D" stop-opacity=".16"/><stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    
+  </defs>
+  <rect width="1200" height="226" rx="24" fill="#050505"/>
+  <rect width="1200" height="226" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="224" rx="23" fill="none" stroke="#fff" stroke-opacity=".095"/>
+  
+    <text x="38" y="42" fill="#C7FF3D" font-family="monospace" font-size="12" letter-spacing="2">LIVE GITHUB SIGNAL / WAITING FOR FIRST SYNC</text>
+    <g transform="translate(38 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#C7FF3D" stroke-opacity=".35"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">PUBLIC REPOS</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".8"><animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/></circle>
+    </g><g transform="translate(225 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">FOLLOWERS</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".8"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+    </g><g transform="translate(412 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">TOTAL STARS</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".8"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+    </g><g transform="translate(599 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">12M CONTRIBUTIONS</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".8"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g><g transform="translate(786 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">CURRENT STREAK</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".45"><animate attributeName="opacity" values=".2;1;.2" dur="2.4000000000000004s" repeatCount="indefinite"/></circle>
+    </g><g transform="translate(973 74)">
+      <rect width="169" height="112" rx="16" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".09"/>
+      <text x="16" y="30" fill="#82827C" font-family="monospace" font-size="10" letter-spacing="1.2">LONGEST STREAK</text>
+      <text x="16" y="78" fill="#F4F4EF" font-family="Arial, sans-serif" font-size="31" font-weight="800">—</text>
+      <circle cx="145" cy="25" r="4" fill="#C7FF3D" opacity=".45"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect x="-300" y="0" width="260" height="226" fill="url(#shine)"><animate attributeName="x" values="-300;1240" dur="6s" repeatCount="indefinite"/></rect>
+  
+</svg>

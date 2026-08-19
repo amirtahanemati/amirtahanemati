@@ -1,28 +1,59 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#C7FF3D" stop-opacity=".28"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D4FF4F"/>
+      <stop offset="1" stop-color="#91FF00"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#C7FF3D" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C7FF3D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#C7FF3D" stop-opacity=".18"/>
       <stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#fff" stroke-opacity=".045"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".042"/>
     </pattern>
-    <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="frame"><rect width="1200" height="420" rx="30"/></clipPath>
   </defs>
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="360" fill="#050505"/>
-    <rect width="1200" height="360" fill="url(#grid)"/>
-    <circle cx="1070" cy="70" r="280" fill="url(#glow)">
-      <animate attributeName="cx" values="1070;920;1070" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="70;220;70" dur="8s" repeatCount="indefinite"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="#050505"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <circle cx="1080" cy="90" r="300" fill="url(#orb)" filter="url(#soft)">
+      <animate attributeName="cx" values="1080;920;1080" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="90;255;90" dur="9s" repeatCount="indefinite"/>
     </circle>
-    <rect x="34" y="34" width="1132" height="292" rx="16" stroke="#fff" stroke-opacity=".11"/>
-    <text x="68" y="82" fill="#C7FF3D" font-family="monospace" font-size="14" letter-spacing="3">SOFTWARE DEVELOPER / PRODUCT BUILDER</text>
-    <text x="68" y="198" fill="#F3F3EF" font-family="Arial, sans-serif" font-size="94" font-weight="900" letter-spacing="-6">AMIRTAHA</text>
-    <text x="68" y="278" fill="none" stroke="#F3F3EF" stroke-opacity=".72" font-family="Arial, sans-serif" font-size="78" font-weight="900" letter-spacing="-4">NEMATI.</text>
-    <circle cx="1090" cy="267" r="8" fill="#C7FF3D">
-      <animate attributeName="opacity" values="1;.18;1" dur="1.7s" repeatCount="indefinite"/>
+    <rect x="-360" y="0" width="340" height="420" fill="url(#scan)" opacity=".8">
+      <animate attributeName="x" values="-360;1240" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="28" width="1144" height="364" rx="20" stroke="#FFFFFF" stroke-opacity=".11"/>
+    <path d="M64 85H282" stroke="#C7FF3D" stroke-width="2"/>
+    <circle cx="65" cy="85" r="5" fill="#C7FF3D">
+      <animate attributeName="opacity" values="1;.18;1" dur="1.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="1111" y="272" fill="#8B8B84" font-family="monospace" font-size="11">BUILD MODE</text>
+    <text x="64" y="69" fill="#C7FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.4">SOFTWARE ENGINEER / PRODUCT BUILDER</text>
+    <text x="64" y="194" fill="#F4F4EF" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="900" letter-spacing="-5">AMIRTAHA</text>
+    <text x="64" y="280" fill="none" stroke="#F4F4EF" stroke-opacity=".78" stroke-width="1.5" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="900" letter-spacing="-4">NEMATI.</text>
+    <rect x="64" y="316" width="330" height="48" rx="24" fill="#C7FF3D" fill-opacity=".08" stroke="#C7FF3D" stroke-opacity=".35"/>
+    <text x="88" y="346" fill="#C7FF3D" font-family="ui-monospace, monospace" font-size="15" font-weight="700" letter-spacing="1">ELECTRON.JS / DESKTOP SYSTEMS</text>
+    <g transform="translate(835 150)">
+      <rect width="286" height="158" rx="18" fill="#0B0B0B" stroke="#FFFFFF" stroke-opacity=".11"/>
+      <text x="22" y="34" fill="#81817C" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.5">BUILD PIPELINE</text>
+      <text x="22" y="70" fill="#F4F4EF" font-family="ui-monospace, monospace" font-size="14">01  architecture</text>
+      <text x="22" y="94" fill="#F4F4EF" font-family="ui-monospace, monospace" font-size="14">02  interface</text>
+      <text x="22" y="118" fill="#F4F4EF" font-family="ui-monospace, monospace" font-size="14">03  ship</text>
+      <rect x="20" y="132" width="246" height="4" rx="2" fill="#202020"/>
+      <rect x="20" y="132" width="90" height="4" rx="2" fill="url(#accent)">
+        <animate attributeName="width" values="24;246;24" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="1068" y="356" text-anchor="end" fill="#81817C" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.5">LIVE / BUILD MODE</text>
+    <circle cx="1090" cy="352" r="5" fill="#C7FF3D">
+      <animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>

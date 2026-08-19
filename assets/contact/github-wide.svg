@@ -1,0 +1,10 @@
+<svg width="570" height="84" viewBox="0 0 570 84" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="s"><stop stop-color="#C7FF3D" stop-opacity="0"/><stop offset=".5" stop-color="#C7FF3D" stop-opacity=".14"/><stop offset="1" stop-color="#C7FF3D" stop-opacity="0"/></linearGradient></defs>
+<rect x=".5" y=".5" width="569" height="83" rx="19" fill="#080808" stroke="#fff" stroke-opacity=".11"/>
+<circle cx="43" cy="42" r="23" fill="#C7FF3D" fill-opacity=".09" stroke="#C7FF3D" stroke-opacity=".32"/>
+<text x="43" y="48" text-anchor="middle" fill="#C7FF3D" font-family="Arial" font-size="17" font-weight="800">GH</text>
+<text x="82" y="34" fill="#F4F4EF" font-family="Arial" font-size="15" font-weight="800">GITHUB</text>
+<text x="82" y="55" fill="#85857F" font-family="monospace" font-size="11">@amirtahanemati</text>
+<text x="530" y="49" fill="#C7FF3D" font-family="Arial" font-size="22">↗</text>
+<rect x="-130" y="0" width="110" height="84" fill="url(#s)"><animate attributeName="x" values="-130;600" dur="5.4s" repeatCount="indefinite"/></rect>
+</svg>

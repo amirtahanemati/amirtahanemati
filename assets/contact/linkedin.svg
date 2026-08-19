@@ -1,0 +1,8 @@
+<svg width="260" height="58" viewBox="0 0 260 58" xmlns="http://www.w3.org/2000/svg">
+<rect x=".5" y=".5" width="259" height="57" rx="16" fill="#080808" stroke="#fff" stroke-opacity=".11"/>
+<circle cx="30" cy="29" r="16" fill="#C7FF3D" fill-opacity=".10" stroke="#C7FF3D" stroke-opacity=".35"/>
+<text x="30" y="34" text-anchor="middle" fill="#C7FF3D" font-family="Arial" font-size="13" font-weight="800">in</text>
+<text x="55" y="25" fill="#F3F3EF" font-family="Arial" font-size="12" font-weight="700">LINKEDIN</text>
+<text x="55" y="41" fill="#777772" font-family="monospace" font-size="9">in/amirtahanemati</text>
+<text x="236" y="34" fill="#C7FF3D" font-family="Arial" font-size="17">↗</text>
+</svg>

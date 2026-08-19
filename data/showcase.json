@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "Private build slot",
+      "status": "IN DEVELOPMENT",
+      "description": "Replace this entry with a project you want to mention before publishing its repository.",
+      "stack": ["Electron.js", "JavaScript"],
+      "url": null
+    },
+    {
+      "name": "Next product slot",
+      "status": "LAB",
+      "description": "Only add details here that are safe to publish on your public GitHub profile.",
+      "stack": ["Python", "FastAPI"],
+      "url": null
+    }
+  ]
+}
