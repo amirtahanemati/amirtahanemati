@@ -12,7 +12,7 @@
     <text x="28" y="79" fill="#F5F5F0" font-family="Arial,sans-serif" font-size="23" font-weight="900">CourseSelection-Mobile</text>
     <text x="28" y="110" fill="#A0A09A" font-family="Arial,sans-serif" font-size="12">📱 Mobile app for building and visualizing your weekly course schedule — built with Expo &amp; Reac</text>
     <circle cx="32" cy="145" r="5" fill="#3178C6"/><text x="46" y="149" fill="#C8C8C2" font-family="monospace" font-size="11">TypeScript</text>
-    <text x="540" y="149" text-anchor="end" fill="#85857F" font-family="monospace" font-size="11">★ 1 • PUSH AUG 31</text>
+    <text x="540" y="149" text-anchor="end" fill="#85857F" font-family="monospace" font-size="11">★ 1 • PUSH SEP 02</text>
     <path d="M28 170H542" stroke="#fff" stroke-opacity=".07"/>
     <text x="28" y="188" fill="#BFFF35" font-family="monospace" font-size="10" letter-spacing="1.2">OPEN REPOSITORY ↗</text>
     <rect x="-180" y="0" width="150" height="204" fill="url(#shine)"><animate attributeName="x" values="-180;610" dur="5.6s" repeatCount="indefinite"/></rect>
