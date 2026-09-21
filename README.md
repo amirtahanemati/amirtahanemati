@@ -37,8 +37,8 @@
 <!-- AUTO:REPOS:START -->
 <p align="center">
   <a href="https://github.com/amirtahanemati/CourseSelection-Mobile"><img src="./generated/repo-1.svg" width="48.5%" alt="CourseSelection-Mobile" /></a>
-  <a href="https://github.com/amirtahanemati/smart-deploy"><img src="./generated/repo-2.svg" width="48.5%" alt="smart-deploy" /></a>
-  <a href="https://github.com/amirtahanemati/portfolio"><img src="./generated/repo-3.svg" width="48.5%" alt="portfolio" /></a>
+  <a href="https://github.com/amirtahanemati/portfolio"><img src="./generated/repo-2.svg" width="48.5%" alt="portfolio" /></a>
+  <a href="https://github.com/amirtahanemati/smart-deploy"><img src="./generated/repo-3.svg" width="48.5%" alt="smart-deploy" /></a>
   <a href="https://github.com/amirtahanemati/Dictionary-app"><img src="./generated/repo-4.svg" width="48.5%" alt="Dictionary-app" /></a>
 </p>
 <!-- AUTO:REPOS:END -->
